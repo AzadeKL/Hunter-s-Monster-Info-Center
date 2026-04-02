@@ -1,0 +1,13 @@
+<div class="monster-card" *ngFor="let monster of monsters">
+  <div class="image-box"></div>
+
+  <div class="info">
+    <span>{{ monster.name }}</span>
+    <span>|</span>
+    <span>{{ monster.tags }}</span>
+    <span>|</span>
+    <span>{{ monster.sources }}</span>
+  </div>
+
+  <button *ngIf="isAdmin" class="edit-btn">Edit</button>
+</div>s
