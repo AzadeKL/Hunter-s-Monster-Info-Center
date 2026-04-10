@@ -3,10 +3,10 @@
     <h1>Hunter's Monster Info Center</h1>
 
     <div class="account">
-      <button>Login</button>
-      <button>Register</button>
-      <button>Logout</button>
-      <button (click)="toggleAdmin()">Admin</button>
+		<button routerLink="/login">Login</button>
+		<button routerLink="/register">Register</button>
+		<button>Logout</button>
+		<button (click)="toggleAdmin()">Admin</button>
     </div>
   </div>
 
@@ -16,5 +16,5 @@
 </header>
 
 <main class="content">
-  <app-monster-list [isAdmin]="isAdmin"></app-monster-list>
+  <router-outlet></router-outlet>
 </main>

@@ -1,0 +1,13 @@
+.auth-box {
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+}

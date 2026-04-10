@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { MonsterListComponent } from './monster-list/monster-list';
+import { RouterOutlet, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [MonsterListComponent],
+  imports: [RouterOutlet, RouterLink], // 👈 THIS is the important part
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
