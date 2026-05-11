@@ -1,5 +1,19 @@
 {
+  "name": "hunter-s-monster-info-center",
+  "version": "1.0.0",
+  "description": "Monster Hunter Wiki Search Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "mongoose": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
